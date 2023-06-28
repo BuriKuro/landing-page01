@@ -1,0 +1,265 @@
+@font-face { 
+    font-family: thinking-of-betty; src: url('thinking-of-betty.ttf');
+    }
+
+#grad {
+    background-image: linear-gradient(180deg, #FCD2B9, #F1945B);
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #FCD2B9, #F1945B);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-basis: 100%;
+    background-color: #B25D34;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover {
+    text-decoration: line-through;
+}
+
+.logo-left {
+    align-self: center;
+    font-family: thinking-of-betty;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-top: 5px;
+}
+
+.right-links {
+    align-self: flex-end;
+}
+
+.right-links ul {
+    display: flex;
+    align-self: flex-end;
+    list-style-type: none;
+}
+
+.right-links li {
+    padding: 10px;
+}
+
+.top-banner {
+    background-color: #B25D34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    min-height: 350px;
+
+}
+
+.tb-left-text {
+    flex-shrink: 1;
+    flex-basis: 30%;
+    padding: 15px;
+}
+
+.tb-left-text button {
+    background-color: #E08D6D;
+    border: 2px solid #FCD2B9;
+    padding: 18px 15px 14px 15px;
+    margin-left: 10px;
+    font-family: thinking-of-betty;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.tb-left-text button:hover {
+    background-color: #FCD2B9;
+}
+
+.tb-left-text h1 {
+    color: white;
+    font-family: thinking-of-betty;
+    font-size:  30px;
+    font-weight: lighter;
+    margin: 10px;
+    line-height: 37px;
+}
+
+.tb-left-text p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.tb-right-img {
+    flex-shrink: 0;
+    flex-basis: 30%;
+    padding: 15px;
+}
+
+.mid-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    min-height: 250px;
+    margin: 50px;
+}
+
+.mid-gallery h1 {
+
+    color: #B25D34;
+    font-family: thinking-of-betty;
+    font-weight: lighter;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid-icon {
+    align-self: flex-start;
+    margin: 30px;
+    color: #B25D34;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 150px;
+}
+
+.mid-icon p {
+    text-align: center;
+}
+
+.mid-icon img {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex: 0 1 60%;
+    background-color: #FCD2B9;
+    color: #B25D34;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 400px;
+}
+
+#quote {
+    margin-top: 15px;
+    max-width: 50%;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#attribution {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin: 25px;
+}
+
+.call-to-action h2 {
+    font-family: thinking-of-betty;
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+.call-to-action p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    border-radius: 12px;
+    background-color: #B25D34;
+}
+
+.call-left {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin: 20px;
+}
+
+.call-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 40%;
+    margin: 20px;
+}
+
+.call-right button {
+    background-color: #E08D6D;
+    border: 2px solid #FCD2B9;
+    padding: 18px 15px 14px 15px;
+    margin-left: 10px;
+    font-family: thinking-of-betty;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.call-right button:hover {
+    background-color: #FCD2B9;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    min-height: 50px;
+    color: #B25D34;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#E08D6D;
+
+}
